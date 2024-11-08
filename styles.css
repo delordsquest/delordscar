@@ -246,6 +246,14 @@ footer {
     text-align: center;
     clear: both;
     text-decoration: none;
+}footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+        
+}
+
+footer a:hover{
+    color:rgb(238, 210, 72);
 }
 
 /* Responsive Design */
