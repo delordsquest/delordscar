@@ -67,8 +67,6 @@ header nav a {
     color: #fff;
     position: relative;
     height: 100%;
-    flex-direction: column; 
-    flex-wrap: wrap;
 }
 
 
@@ -215,11 +213,11 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 750px;
+    /* max-width: 750px; */
 }
 
 input, textarea {
-    width: 50%;
+    width: 40%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -247,6 +245,7 @@ footer {
     padding: 20px;
     text-align: center;
     clear: both;
+    text-decoration: none;
 }
 
 /* Responsive Design */
